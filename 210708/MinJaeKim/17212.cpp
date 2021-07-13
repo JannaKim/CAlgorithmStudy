@@ -16,6 +16,9 @@ using namespace std;
 int won[] = {1, 2, 5, 7}; // 크기 4로 자동 선언. 데이터 영역에 정적 배열 할당. 프로그램 시작 시 항당, 종료시 메모리에서 해제
 //int dp[100000 + 10];
 
+
+
+
 int main(){
     int a = 2;
     int b = 1;
@@ -51,6 +54,9 @@ int main(){
         }
     }
     cout << *(dp + n);
+
+    //cout << sumof(2,5);
+
 
     return 0;
 }
